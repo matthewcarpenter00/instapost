@@ -1,0 +1,55 @@
+body {
+    background: #212121;
+}
+p {
+    margin: 0;
+    font-family: Arial;
+}
+.post {
+    margin: auto;
+    width: 400px;
+    height: 690px;
+    background: white;
+}
+
+.post-head {
+    display: flex;
+    padding: 15px;
+}
+
+.post-head .badge {
+    width:10%;
+}
+.post-head .user {
+    width:80%;
+    margin-left: 10px;
+}
+.post-head .menu {
+    text-align: right;
+    width:10%;
+}
+.post-body {
+    width: 100%;
+}
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+.post-foot {
+   padding: 10px;
+}
+.icons {
+    display: flex;
+}
+.icons .left-icons {
+    width:93%;
+}
+.icons .right-icons {
+    width:7%;
+}
+.likes, .caption {
+    margin-top: 15px;
+}
+
+
